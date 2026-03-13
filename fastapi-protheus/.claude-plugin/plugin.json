@@ -1,0 +1,14 @@
+{
+  "name": "fastapi-protheus",
+  "version": "1.0.0",
+  "description": "Skills para integração com ERP Protheus (TOTVS) via Oracle DB — queries, mappers e tasks de sincronização",
+  "author": {
+    "name": "TesseratoIntegra",
+    "url": "https://github.com/TesseratoIntegra"
+  },
+  "homepage": "https://github.com/TesseratoIntegra/fastapi-specialist",
+  "repository": "https://github.com/TesseratoIntegra/fastapi-specialist",
+  "license": "MIT",
+  "keywords": ["protheus", "totvs", "oracle", "erp", "fastapi", "sync"],
+  "skills": "./skills"
+}

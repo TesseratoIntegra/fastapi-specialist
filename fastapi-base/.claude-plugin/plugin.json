@@ -1,0 +1,14 @@
+{
+  "name": "fastapi-base",
+  "version": "1.0.0",
+  "description": "Inicializador de projetos FastAPI com SQLAlchemy async, PostgreSQL, Redis, Docker e boas práticas de produção",
+  "author": {
+    "name": "TesseratoIntegra",
+    "url": "https://github.com/TesseratoIntegra"
+  },
+  "homepage": "https://github.com/TesseratoIntegra/fastapi-specialist",
+  "repository": "https://github.com/TesseratoIntegra/fastapi-specialist",
+  "license": "MIT",
+  "keywords": ["fastapi", "sqlalchemy", "postgresql", "docker", "python", "async", "boilerplate"],
+  "skills": "./skills"
+}
