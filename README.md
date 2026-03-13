@@ -13,14 +13,23 @@ Monorepo com dois plugins Claude Code para inicialização e desenvolvimento de 
 
 ## Instalação
 
+### Via marketplace (recomendado)
+
+Dentro do Claude Code:
+
+```
+/plugin marketplace add TesseratoIntegra/fastapi-specialist
+/plugin install fastapi-base@TesseratoIntegra-fastapi-specialist
+/plugin install fastapi-protheus@TesseratoIntegra-fastapi-specialist
+```
+
+### Local (desenvolvimento)
+
 ```bash
 git clone https://github.com/TesseratoIntegra/fastapi-specialist.git ~/fastapi-specialist
 
 # Carregar apenas fastapi-base
 claude --plugin-dir ~/fastapi-specialist/fastapi-base
-
-# Carregar apenas fastapi-protheus
-claude --plugin-dir ~/fastapi-specialist/fastapi-protheus
 
 # Carregar ambos de uma vez
 claude \

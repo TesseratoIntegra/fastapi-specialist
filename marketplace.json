@@ -1,0 +1,20 @@
+{
+  "name": "fastapi-specialist",
+  "description": "Plugins Claude Code para projetos FastAPI com SQLAlchemy async, PostgreSQL, Redis, Docker e integração com ERP Protheus (TOTVS)",
+  "author": {
+    "name": "TesseratoIntegra",
+    "url": "https://github.com/TesseratoIntegra"
+  },
+  "plugins": [
+    {
+      "name": "fastapi-base",
+      "description": "Inicializador de projetos FastAPI com SQLAlchemy async, PostgreSQL, Redis, Docker e boas práticas de produção",
+      "path": "./fastapi-base"
+    },
+    {
+      "name": "fastapi-protheus",
+      "description": "Skills para integração com ERP Protheus (TOTVS) via Oracle DB — queries, mappers e tasks de sincronização",
+      "path": "./fastapi-protheus"
+    }
+  ]
+}
