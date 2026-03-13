@@ -1,29 +1,34 @@
 {
   "name": "fastapi-specialist",
   "owner": {
-    "name": "TesseratoIntegra",
-    "email": "contato@tesserato.com.br"
+    "name": "TesseratoIntegra"
   },
   "plugins": [
     {
       "name": "fastapi-base",
+      "source": "./fastapi-base",
       "description": "Inicializador de projetos FastAPI com SQLAlchemy async, PostgreSQL, Redis, Docker e boas práticas de produção",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/TesseratoIntegra/fastapi-specialist.git",
-        "path": "fastapi-base",
-        "ref": "main"
-      }
+      "version": "1.0.0",
+      "author": {
+        "name": "TesseratoIntegra"
+      },
+      "homepage": "https://github.com/TesseratoIntegra/fastapi-specialist",
+      "repository": "https://github.com/TesseratoIntegra/fastapi-specialist",
+      "license": "MIT",
+      "keywords": ["fastapi", "sqlalchemy", "postgresql", "docker", "python", "async"]
     },
     {
       "name": "fastapi-protheus",
+      "source": "./fastapi-protheus",
       "description": "Skills para integração com ERP Protheus (TOTVS) via Oracle DB — queries, mappers e tasks de sincronização",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/TesseratoIntegra/fastapi-specialist.git",
-        "path": "fastapi-protheus",
-        "ref": "main"
-      }
+      "version": "1.0.0",
+      "author": {
+        "name": "TesseratoIntegra"
+      },
+      "homepage": "https://github.com/TesseratoIntegra/fastapi-specialist",
+      "repository": "https://github.com/TesseratoIntegra/fastapi-specialist",
+      "license": "MIT",
+      "keywords": ["protheus", "totvs", "oracle", "erp", "fastapi", "sync"]
     }
   ]
 }
