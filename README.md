@@ -13,31 +13,35 @@ Monorepo com dois plugins Claude Code para inicialização e desenvolvimento de 
 
 ## Instalação
 
+> Todos os comandos abaixo são executados no **terminal** (PowerShell, cmd ou bash) — não no chat do Claude Code.
+
 ### Via marketplace (recomendado)
 
-Dentro do Claude Code:
+```bash
+# 1. Registrar o marketplace
+claude plugin marketplace add TesseratoIntegra/fastapi-specialist
 
-```
-/plugin marketplace add TesseratoIntegra/fastapi-specialist
-/plugin install fastapi-base@TesseratoIntegra-fastapi-specialist
-/plugin install fastapi-protheus@TesseratoIntegra-fastapi-specialist
+# 2. Instalar os plugins
+claude plugin install fastapi-base@TesseratoIntegra-fastapi-specialist
+claude plugin install fastapi-protheus@TesseratoIntegra-fastapi-specialist
 ```
 
-### Local (desenvolvimento)
+Após instalar, abra o Claude Code normalmente — os plugins estarão disponíveis automaticamente em qualquer projeto.
+
+### Local (sem instalar)
 
 ```bash
+# Clonar o repositório
 git clone https://github.com/TesseratoIntegra/fastapi-specialist.git ~/fastapi-specialist
 
-# Carregar apenas fastapi-base
-claude --plugin-dir ~/fastapi-specialist/fastapi-base
-
-# Carregar ambos de uma vez
-claude \
-  --plugin-dir ~/fastapi-specialist/fastapi-base \
-  --plugin-dir ~/fastapi-specialist/fastapi-protheus
+# Abrir o Claude Code com os plugins carregados para a sessão
+claude --plugin-dir ~/fastapi-specialist/fastapi-base --plugin-dir ~/fastapi-specialist/fastapi-protheus
 ```
 
-> No Windows, substitua `~/fastapi-specialist` pelo caminho completo, ex: `C:\Users\seu-usuario\fastapi-specialist`.
+> No Windows, substitua `~/fastapi-specialist` pelo caminho completo:
+> ```bash
+> claude --plugin-dir "C:\Users\seu-usuario\fastapi-specialist\fastapi-base" --plugin-dir "C:\Users\seu-usuario\fastapi-specialist\fastapi-protheus"
+> ```
 
 ---
 
