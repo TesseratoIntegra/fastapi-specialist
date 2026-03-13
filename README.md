@@ -22,8 +22,8 @@ Monorepo com dois plugins Claude Code para inicialização e desenvolvimento de 
 claude plugin marketplace add TesseratoIntegra/fastapi-specialist
 
 # 2. Instalar os plugins
-claude plugin install fastapi-base@TesseratoIntegra-fastapi-specialist
-claude plugin install fastapi-protheus@TesseratoIntegra-fastapi-specialist
+claude plugin install fastapi-base@fastapi-specialist
+claude plugin install fastapi-protheus@fastapi-specialist
 ```
 
 Após instalar, abra o Claude Code normalmente — os plugins estarão disponíveis automaticamente em qualquer projeto.
